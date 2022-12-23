@@ -102,7 +102,7 @@ font-size:10px;
 }
 
 .row__posters {
-  width:100%;
+  width:60%;
   height:300px;
   display: flex;
   overflow-y: hidden;
