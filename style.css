@@ -32,7 +32,7 @@ transition: all 0.5s;
 }
 
 h2{
-font-size: 5px;
+margin: 20px;
 }
 
 h3{
@@ -92,11 +92,12 @@ margin: 20px
 height:300px;
 margin:10px;
 padding:10px;
-font-size:10px;
+font-size:30px;
 }
 .row__poster {
   width: 100%;
   object-fit: contain;
+  max-height: 100px;
   margin-right: 10px;
   transition: transform 450ms;
 }
@@ -105,7 +106,7 @@ font-size:10px;
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
-  padding: 40px;
+  padding: 20px;
 }
 
 .row__poster:hover {
@@ -210,7 +211,7 @@ font-size:10px;
     line-height: 1.5;
     color: #000000;
     text-align: left;
-    background-color: #000000;
+    background-color: #fff;
     padding: 30px;
     padding-bottom: 10px;
     border: 1px solid #ced4da;
@@ -266,7 +267,6 @@ textarea.fcf-form-control {
 label.fcf-label {
     display: inline-block;
     margin-bottom: 0.5rem;
-	color: #FF6600;
 }
 
 .fcf-credit {
@@ -288,7 +288,7 @@ label.fcf-label {
 .fcf-btn {
     display: inline-block;
     font-weight: 400;
-    color: #000000;
+    color: #00000;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -322,20 +322,20 @@ label.fcf-label {
 }
 
 .fcf-btn-primary {
-    color: #000000;
+    color: #fff;
     background-color: #FF6600;
     border-color: #FF6600;
 }
 
 .fcf-btn-primary:hover {
-    color: #000000;
+    color: #fff;
     background-color: #0069d9;
     border-color: #FF6600
 ;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
-    color: #000000;
+    color: #fff;
     background-color: #0069d9;
     border-color: ##000000
 ;
