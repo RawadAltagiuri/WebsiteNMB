@@ -97,7 +97,6 @@ font-size:10px;
 .row__poster {
   width: 100%;
   object-fit: contain;
-  max-height: 100px;
   margin-right: 10px;
   transition: transform 450ms;
 }
