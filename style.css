@@ -102,14 +102,11 @@ font-size:10px;
 }
 
 .row__posters {
-  width:60%;
-  height:300px;
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
+  padding: 40px;
 }
-
-
 
 .row__poster:hover {
   transform: scale(1.08);
