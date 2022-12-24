@@ -7,6 +7,7 @@ min-height:100px;
 height:auto;
 
 }
+.image
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -103,10 +104,12 @@ font-size:30px;
 }
 
 .row__posters {
-  display: flex;
-  overflow-y: hidden;
-  overflow-x: scroll;
-  padding: 20px;
+	display: flex;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	padding: 20px;
+	image: auto!important;
+
 }
 
 .row__poster:hover {
