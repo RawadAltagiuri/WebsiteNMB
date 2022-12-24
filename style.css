@@ -7,7 +7,9 @@ min-height:100px;
 height:auto;
 
 }
-.image
+img{
+	width:100%
+}
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -108,7 +110,6 @@ font-size:30px;
 	overflow-y: hidden;
 	overflow-x: scroll;
 	padding: 20px;
-	image: auto!important;
 
 }
 
